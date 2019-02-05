@@ -1,0 +1,28 @@
+{
+  "name": "rs-ss-poster",
+  "version": "0.0.0",
+  "main": "bin/bot.js",
+  "author": "Zackary Campbell",
+  "license": "MIT",
+  "scripts": {
+	"build": "gulp",
+	"run": "node ./bin/bot.js",
+	"runOnce": "cross-env RUN_ONCE=true node ./bin/bot.js"
+  },
+  "dependencies": {
+    "@yamdbf/core": "yamdbf/core#indev"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "cross-env": "^5.1.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-tslint": "^8.1.1",
+    "gulp-typescript": "^4.0.2",
+    "run-sequence": "^1.2.2",
+    "ts-node": "^6.1.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.9.1"
+  }
+}
